@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('images/intersectionality4.jpeg');
+    background-size: cover;
+    color: rgb(13, 13, 14);
+    text-align: center;
+    padding: 230px 0;
+}
+
+.header-content {
+    padding: 100px 0;
+    background: rgba(184, 208, 232, 0.5); /* Semi-transparent background */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(171, 196, 217, 0.5);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 80px;
+    height: 40vh;
+}
+
+#section1 { background: #f4f4f4; }
+#section2 { background: #e2e2e2; }
+#section3 { background: #d0d0d0; }
+#section4 { background: #f4f4f4; }
+#section5 { background: #e2e2e2; }
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #c8f2dc;
+    color: #2e2828;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
