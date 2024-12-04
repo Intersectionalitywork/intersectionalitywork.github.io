@@ -49,8 +49,8 @@ nav ul li a {
 /* Ensure section backgrounds are responsive */
 section {
     padding: 80px;
-    height: 100%; /* Use vh units for height */
-    width: 100%; /* Ensure sections take up full width */
+    height: fit-content; /* Use vh units for height */
+    width: fit-content; /* Ensure sections take up full width */
     box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
