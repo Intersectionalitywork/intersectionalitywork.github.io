@@ -59,6 +59,7 @@ section {
 #section3 { background: #d0d0d0; }
 #section4 { background: #f4f4f4; }
 #section5 { background: #e2e2e2; }
+#section6 { background: #d0d0d0; }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
