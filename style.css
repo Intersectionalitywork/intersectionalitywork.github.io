@@ -5,10 +5,11 @@ body, html {
 }
 
 header {
-    background-image: url('images/intersectionality4.jpeg');
+    background-image: url('images/intersectionality2_adjusted.JPG'); 
     background-size: cover;
     color: rgb(13, 13, 14);
     text-align: center;
+    text-size-adjust: 75px;
     padding: 230px 0;
 }
 
@@ -60,6 +61,7 @@ section {
 #section4 { background: #f4f4f4; }
 #section5 { background: #e2e2e2; }
 #section6 { background: #d0d0d0; }
+#section7 { background: #e6f3f5; }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
