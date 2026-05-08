@@ -5,7 +5,7 @@ body, html {
 }
 
 header {
-    background-image: url('images/intersectionality2_adjusted.JPG'); 
+    background-image: url('images/intersec.jpg'); 
     background-size: cover;
     color: rgb(13, 13, 14);
     text-align: center;
@@ -34,8 +34,9 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: rgba(171, 196, 217, 0.5);
+   
 }
+
 
 nav ul li {
     margin: 0 15px;
@@ -55,13 +56,14 @@ section {
     box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
-#section1 { background: #f4f4f4; }
+#section1 { background: #ccb8f0; }
 #section2 { background: #e2e2e2; }
-#section3 { background: #d0d0d0; }
-#section4 { background: #f4f4f4; }
-#section5 { background: #e2e2e2; }
-#section6 { background: #d0d0d0; }
-#section7 { background: #e6f3f5; }
+#section3 { background: #fbd4be; }
+#section4 { background: #ffffff; }
+#section5 { background: #b3d9fa; }
+#section6 { background: #e2e2e2; }
+#section7 { background: #ccb8f0; }
+#section8 { background: #f4f4f4; }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
@@ -94,4 +96,26 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: flex-start; /* aligns top of image and text */
+    gap: 20px; /* space between image and text */
+}
+
+.container img {
+    width: 250px;  /* adjust as needed */
+    height: fit-content;
+    content: url(images/ronnie.jpeg);
+}
+
+.container .text {
+    flex: 1; /* text takes remaining space */
 }
